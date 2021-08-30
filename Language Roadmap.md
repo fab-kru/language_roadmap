@@ -4,13 +4,15 @@ All users get in touch with language during their usage of ILIAS. So do all peop
 
 The variety of actors leads to different flavours of language in ILIAS. The creation of a general style book has not yet gained enough traction.
 
-Still, we would like to improve language in ILIAS. This is why we want to outline what we’re up to and provide pull requests based on our ideas presented in this document.
+Still, we would like to improve language in ILIAS. This is why we want to… 
+* outline what we’re up to and 
+* provide pull requests based on our ideas presented in this document.
 
 If you oppose (or support!) entries in this document, please comment and/or get on board.
 
 **Unifying language variables**
 
-Language variables are one of the many cross-cutting issues in ILIAS. Over time, the language increasingly diffuses apart. Continuous maintenance of the language variables should ensure and improve the uniformity of the system. This chapter describes the procedure and outlines the steps to unify the language variables. The priorities are discussed frequently with the maintainer.
+Language variables are one of the many cross-cutting issues in ILIAS. Over time, the language increasingly diffuses apart. Continuous maintenance of the language variables should ensure and *improve the uniformity of the system*. This chapter describes the procedure and outlines the steps to unify the language variables. The priorities are discussed frequently with the language maintainer.
 
 ## Tab Navigation
 
@@ -24,7 +26,7 @@ The "Settings" tab is used in many ILIAS objects and services. The structure is 
 - Since you are already in the Settings tab, the sub tabs should not get the addition "... Settings". Existing redundancies should be improved.
 - If there is a sub tab that entails a variety of basic and general settings, it should be called "General". Other sub tabs should be named according to the settings groups contained.
 
-**Currently used labels for the Basic/General Settings sub tab**
+**Currently used labels for the Basic/General Settings SUB tab**
 "Settings"
   - ILIAS Learning Module
   - Category
@@ -89,16 +91,16 @@ Setting duplicates
   - Administration > Repository and Objects > Survey (Settings und Settings Templates)
   - Administration > Repository and Objects > Test (Settings und Settings Templates)
 
-## Page Editor
-### Naming of editors in ILIAS
+## Naming of editors in ILIAS
+### ILIAS Page Editor, TinyMCE Editor, Content Style Editor
 
 There are many different names for editors. In some places only the spelling differs, in others different terms are used for the same editor. 
 
 **Suggested Pattern**
-- The ILIAS-Page Editor should always be called ILIAS-Page Editor.
-- The ILIAS-Page Editor should always be called TinyMCE-Editor.
-- The Content Style-Editor should always be called Content Style-Editor.
-- If an editor is used in a specific context, the editor term should not be adjusted, e.g. Editor for Answers (NO) / to edit answers, Edit the answer with the TinyMCE editor (YES). 
+- The ILIAS Page Editor should always be called "ILIAS Page Editor" (en) / "ILIAS-Seiteneditor" (de).
+- The TinyMCE Editor should always be called "TinyMCE Editor" (en) / "TinyMCE-Editor" (de).
+- The Content Style Editor should always be called "Content Style Editor" (en) / "Content-Style-Editor" (de).
+- If an editor is used in a specific context, the editor term should not be adjusted, e.g. "Editor for Answers" (NO) / "To edit answers, use the TinyMCE editor" (YES). 
 
 **Currently used labels for ILIAS-Page Editor/TinyMCE Editor**
 "ILIAS-Page Editor_en"
@@ -124,9 +126,12 @@ There are many different names for editors. In some places only the spelling dif
     - Tiny MCE Editor (de)
 
 "Content Style-Editor"
-		- Styleeditor -> Content Style-Editor
+		- Styleeditor (de)
 
-"Other editor labels"
+### Other editor labels
+
+These should be looked at, too!
+
     - certificate editor (en) / Zertifikat-Editor (de)
 		- editor for answers (en) / Antwort-Editor (de)
 		- portfolio editor (en) / Portfolio-Editor (de)
@@ -134,9 +139,8 @@ There are many different names for editors. In some places only the spelling dif
 ### Customize Page
 
 **Suggested Pattern**
-- The action to open the ILIAS-page editor should always be Customize Page.
-- The action to close the ILIAS-page editor should always be ?????. (Oliver fragen)
-
+- The action to open the ILIAS Page Editor should always be Customize Page.
+- The action to close the ILIAS Page Editor should always be ?????. (Oliver fragen)
 
 **Currently used labels for Customize Page / Finish Editing**
 		- Customize Page (en) / Seite gestalten (de)
@@ -144,7 +148,8 @@ There are many different names for editors. In some places only the spelling dif
 		- Loginscreen Editor (en) / Loginseite gestalten (de)
 
     - Finish Editing (en) / Bearbeitung beenden (de)
-### Insert links via ILIAS-Page Editor
+
+### Insert links via ILIAS Page Editor
 
 **Currently used labels for Customize Page / Finish Editing**
 Text
@@ -163,7 +168,10 @@ Media
     - Link (internal) (en) / Link (intern) (de)
         - [get link] (en) / [Link auswählen] (de)
     - No Link (en) / Kein Link (de)
+
 ## Further simple adjustments
+
+The following issues were collected by Alix Mela. We would like to discuss and improve them as we proceed with our work. Further additions are welcome!
 
 **Needs to be discussed**
 - E-Mail-Adresse vs. E-Mailadresse
