@@ -19,154 +19,189 @@ Language variables are one of the many cross-cutting issues in ILIAS. Over time,
 The "Settings" tab is used in many ILIAS objects and services. The structure is very similar in all contexts of use – but the wording often differs. In order to simplify the handling and the learnability of the settings, wording should be adapted to each other.
 
 **Suggested Pattern**
--The main tab for the settings of an object should always be called "Settings".
--There should be only one Settings tab per object or service.
--Since you are already in the Settings tab, the sub tabs should not get the addition "... Settings". Existing redundancies should be improved.
--If there is a sub tab that entails a variety of basic and general settings, it should be called "General". Other sub tabs should be named according to the settings groups contained.
+- The main tab for the settings of an object should always be called "Settings".
+- There should be only one Settings tab per object or service.
+- Since you are already in the Settings tab, the sub tabs should not get the addition "... Settings". Existing redundancies should be improved.
+- If there is a sub tab that entails a variety of basic and general settings, it should be called "General". Other sub tabs should be named according to the settings groups contained.
 
 **Currently used labels for the Basic/General Settings sub tab**
-
 "Settings"
-  -ILIAS Learning Module
-  -Category
-  -Study Programme
-  -Glossary
-  -Survey
-  -Mediapool
-  -Content Page
-  -xAPI/cmi5
-  -Bibliography
-  -Administration > Personal Workspace > Who is online?-Tool
-  -Administration > Personal Workspace > Tagging (Main tab here is called "Edit Settings", which should be corrected)
+  - ILIAS Learning Module
+  - Category
+  - Study Programme
+  - Glossary
+  - Survey
+  - Mediapool
+  - Content Page
+  - xAPI/cmi5
+  - Bibliography
+  - Administration > Personal Workspace > Who is online?-Tool
+  - Administration > Personal Workspace > Tagging (Main tab here is called "Edit Settings", which should be corrected)
 
 "General Settings"
-  -Test&Assessment
-  -Question Pool
-  -Wiki
-  -Exercise
-  -Administration > Personal Workspace > Dashboard
-  -Administration > Repository and Objects > Course
-  -Administration > Repository and Objects > Group
+  - Test&Assessment
+  - Question Pool
+  - Wiki
+  - Exercise
+  - Administration > Personal Workspace > Dashboard
+  - Administration > Repository and Objects > Course
+  - Administration > Repository and Objects > Group
 
 "General"
-  -Administration > Layout and Navigation > Editing
-  -Administration > Communication > Mail
-  -Administration > Search and Find > Metadata (Reiter heißt General Settings)
+  - Administration > Layout and Navigation > Editing
+  - Administration > Communication > Mail
+  - Administration > Search and Find > Metadata (Reiter heißt General Settings)
 
 "Basic Settings"
-  -Forum
-  -Administration > System Settings and Maintenance > General Settings
+  - Forum
+  - Administration > System Settings and Maintenance > General Settings
 
 "[Object name] Settings"
-  -Course
-  -Group
-  -Administration > System Settings and Maintenance > Logging
-  -Administration > User and Roles > Authentication and Registration (?eventuell Sonderfall? - mehrere Tabs mit Subeinstellungen)
+  - Course
+  - Group
+  - Administration > System Settings and Maintenance > Logging
+  - Administration > User and Roles > Authentication and Registration (?eventuell Sonderfall? - mehrere Tabs mit Subeinstellungen)
 
 "[Object] Properties"
-  -Blog
-  -Portfolio Template
+  - Blog
+  - Portfolio Template
 
 "Settings for [Object name]"
-  -SCORM Learning Module 1.2
+  - SCORM Learning Module 1.2
 
 "Edit"
-  -Individual Assessment
+  - Individual Assessment
 
 "Object Settings [sic!]"
-  -LTI Consumer
+  - LTI Consumer
 
 "Edit Settings"
-  -Administration > Communication > News and Web Feeds (Reiter heißt Edit Settings) --> BUG REPORT
+  - Administration > Communication > News and Web Feeds (Reiter heißt Edit Settings) --> BUG REPORT
 
 No Settings Tab
-  -Administration > System Settings and Maintenance > System Check
-  -Administration > System Settings and Maintenance > Repository Trash and Permissions (falschen Titel) --> BUG REPORT
-  -Administration > Layout and Navigation > Main Menu
-  -Administration > Layout and Navigation > Layout and Styles
-  -Administration > User and Roles > terms of Service
+  - Administration > System Settings and Maintenance > System Check
+  - Administration > System Settings and Maintenance > Repository Trash and Permissions (falschen Titel) --> BUG REPORT
+  - Administration > Layout and Navigation > Main Menu
+  - Administration > Layout and Navigation > Layout and Styles
+  - Administration > User and Roles > terms of Service
 
 Setting duplicates
-  -Administration > Repository and Objects > Survey (Settings und Settings Templates)
-  -Administration > Repository and Objects > Test (Settings und Settings Templates)
+  - Administration > Repository and Objects > Survey (Settings und Settings Templates)
+  - Administration > Repository and Objects > Test (Settings und Settings Templates)
 
 ## Page Editor
+### Naming of editors in ILIAS
 
-###
+There are many different names for editors. In some places only the spelling differs, in others different terms are used for the same editor. 
 
-unterschiedliche Editoren:
-		- Seiteneditor / ILIAS-Seiteneditor / Editor / Standard-Seiteneditor / ILIAS-Editor -> ILIAS-Editor
-		- TinyMCE / TinyMCE-Editor / Rich-Text-Editor (TinyMCE) / Rich-Text-Editor / Tiny MCE Editor -> TinyMCE-Editor
-		- Zertifikat-Editor / certificate editor (EN) -> Zertifikatseinstellungen
-            Administration > Achievements > Certificates
-            Das hier angegebene Hintergrundbild wird bei allen Zertifikaten als Standard-Hintergrund verwendet, es sei denn, Sie geben im Zertifikat-Editor explizit ein anderes Hintergrundbild an.
+**Suggested Pattern**
+- The ILIAS-Page Editor should always be called ILIAS-Page Editor.
+- The ILIAS-Page Editor should always be called TinyMCE-Editor.
+- The Content Style-Editor should always be called Content Style-Editor.
+- If an editor is used in a specific context, the editor term should not be adjusted, e.g. Editor for Answers (NO) / to edit answers, Edit the answer with the TinyMCE editor (YES). 
 
-            Das hier angegebene Hintergrundbild wird bei allen Zertifikaten als Standard-Hintergrund verwendet, es sei denn, Sie geben in den lokalen Zertifikatseinstellungen ein anderes Hintergrundbild an.
+**Currently used labels for ILIAS-Page Editor/TinyMCE Editor**
+"ILIAS-Page Editor_en"
+    - ILIAS Page Editor (en)
+    - Loginscreen Editor (en)
 
+"ILIAS-Page Editor_de"
+    - Seiteneditor (de)
+    - ILIAS-Seiteneditor (de)
+    - Editor (de)
+    - Standard-Seiteneditor (de)
+    - ILIAS-Editor -> ILIAS-Editor (de)
+
+"TinyMCE-Editor_en"
+    - Rich-text editor (en)
+    - Rich-Text-Editor (TinyMCE) (en)
+
+"TinyMCE-Editor_de"
+    - TinyMCE (de)
+    - TinyMCE-Editor (de)
+    - Rich-Text-Editor (TinyMCE) (de)
+    - Rich-Text-Editor (de)
+    - Tiny MCE Editor (de)
+
+"Content Style-Editor"
 		- Styleeditor -> Content Style-Editor
-            Administration > Layout > Editing
-            Die Einstellung ersetzt die Buttons der semantischen Styleklassen für strong, emphatic und important durch die fest definierten Auszeichnungen B (bold), I (italic) und U (underline). Achtung: hierbei kann es zu Inkonsistenzen kommen, wenn über den Styleeditor den Styleklassen für strong, emphatic und important andere Auszeichnungen zugeordnet wurden.
 
-            Die Einstellung ersetzt die Buttons der semantischen Styleklassen für strong, emphatic und important durch die fest definierten Auszeichnungen B (bold), I (italic) und U (underline). Achtung: hierbei kann es zu Inkonsistenzen kommen, wenn über den Content Style andere Auszeichnungen zugeordnet wurden.
-
-		- Antwort-Editor
-            Evtl. BUG: Eine Checkbox TinyMCE-Editor aktivieren. Byline: Der TinyMCE-Editor wird für die Antwort-Texte aktiviert. Damit können Sie mehrzeilige Antorten hinterlegen und den Antworttext gestalten.
-
-		- Portfolio-Editor (exc) ->
-            Im Übungsworkflow heißt auch das Beenden des Editors anders...Portfolio abschließen und abgeben.
-
-            Möchten Sie die aktuelle Version Ihres Portfolios jetzt abgeben? Sie können dies auch jederzeit im Portfolio-Editor tun.
-
-            Möchten Sie die aktuelle Version Ihres Portfolios jetzt abgeben? Sie können dies auch nach einer weiteren Bearbeitung tun.
-
-		- Portfolio-Editor (exc) ->
-            Möchten Sie die aktuelle Version Ihres Blogs jetzt abgeben? Sie können dies auch jederzeit im Blog-Editor tun.
-
-            Möchten Sie die aktuelle Version Ihres Blogs jetzt abgeben? Sie können dies auch nach einer weiteren Bearbeitung tun.
+"Other editor labels"
+    - certificate editor (en) / Zertifikat-Editor (de)
+		- editor for answers (en) / Antwort-Editor (de)
+		- portfolio editor (en) / Portfolio-Editor (de)
 
 ### Customize Page
 
-		- "Seite gestalten"
-			- Magazin, Kategorie, Kurs
-		- "Seite bearbeiten"
-			- Lernmodul
-			- Portfolio aus dem Reiter "Inhalt" über das Aktionen-Menü
-		- "Bearbeiten"
-			- Portfolio aus der Vorschau
-				- Öffnen, dann sieht man die Voransicht mit Inhalten, Reitern usw.
-				- Oben rechts dann Button "Bearbeiten" öffnet Editor
-		- Loginseite gestalten / Loginscreen Editor (EN)
-
-Editor beenden
-		- "Bearbeitung beenden" ist immer da, oder?
-    - Wird das nicht durch die Page Editor Revision geändert? Seitengestaltung beenden?
-    - Wenn der Editor als Mode eingeführt wird, sollte das öffnen/starten des Editors präzise beschrieben werden....Editor öffnen/Editor beenden.
+**Suggested Pattern**
+- The action to open the ILIAS-page editor should always be Customize Page.
+- The action to close the ILIAS-page editor should always be ?????. (Oliver fragen)
 
 
-### Interne Links setzen
+**Currently used labels for Customize Page / Finish Editing**
+		- Customize Page (en) / Seite gestalten (de)
+		- Edit (en) / Bearbeiten (de)
+		- Loginscreen Editor (en) / Loginseite gestalten (de)
 
-Block
-    - Kein Link
-    - WWW / Internet
-        - Objekt » Ziel-Objekt wählen
-    - Innerhalb von ILIAS
+    - Finish Editing (en) / Bearbeitung beenden (de)
+### Insert links via ILIAS-Page Editor
 
-Medien
-    - Link (extern)
-    - Link (intern)
-        - [Link auswählen]
-    - Kein Link
+**Currently used labels for Customize Page / Finish Editing**
+Text
+    - Internal Link (en) / Interner Link (de)
+    - External Link (en) / Externer Link (de)
+    - User Profil (en) / Benutzerprofil (de)
 
-Text (Seiteneditor unter ILIAS 7)
-    - Interner Link
-    - Externer Link
-    - Benutzerprofil
+Section
+    - No Link (en) / Kein Link (de)
+    - World Wide Web (en) / WWW / Internet (de)
+        - » Select Target Object (en) / Objekt » Ziel-Objekt wählen (de)
+    - Inside ILIAS (en) / Innerhalb von ILIAS (de)
 
-## Weitere Anpassungen
+Media
+    - Link (external) (en) / Link (extern) (de)
+    - Link (internal) (en) / Link (intern) (de)
+        - [get link] (en) / [Link auswählen] (de)
+    - No Link (en) / Kein Link (de)
+## Further simple adjustments
+
+**Needs to be discussed**
+- E-Mail-Adresse vs. E-Mailadresse
+- Mail vs. E-Mail vs. ?
+- Popup achnge to Pop-up (Duden)
+- Plugin change to Plug-in (Duden)
+- Addon vs. Add-on
+- Account vs. Konto vs. Name (Benutzer-Account, Benutzerkonto, Benutzername, Benutzerkennung, Benutzerkontennamen)
+- https vs. HTTPS http vs. HTTP
+- Less vs. LESS vs. less
+- strong vs. Bold
+- Brotkrumennavigation, pfad, Brotkrumendarstellung
+- typ vs typen
+- Content vs. Inhalt vs. ?
+- mastery score vs. mastery-score
+- 4ten vs. 4.
+- File type capitalized YES/NO (svg vs. SVG) and what about compound words?
+- How are things mentioned? (Quotation marks, b, strong, i, ...?)
+- Slash with/without space
+- Write out umlauts or à la &uuml;
+- Login vs. Anmeldung
+- Dopdown vs. Drop-down vs. Drop-Down vs. Drop-down-Menü (Duden)
+- URL m/w
+- RefId, UserId, ObjId
+- Upload vs. Hochladen
+- Download vs. Herunterladen
+- (n) vs. (-n) vs. /-n
+- … vs. Space
+## Introduction of further labels
+We also want to discuss and find German names for the following labels.
+
+**Currently used labels**
+- Background Task
+- Notification Center
+- Learning Record Store
+- Activity (LTI)
 
 
-
-## We want to find german Bezeichner for the following Words....
 
 
 
