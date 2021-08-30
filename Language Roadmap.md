@@ -1,4 +1,4 @@
-# Language Roadmap (v0.2)
+# Language Roadmap (v0.3)
 
 All users get in touch with language during their usage of ILIAS. So do all people helping to write concepts and features, those writing the test cases and – of course – the maintainers and coders who provide the actual implementation.
 
@@ -10,13 +10,11 @@ Still, we would like to improve language in ILIAS. This is why we want to…
 
 If you oppose (or support!) entries in this document, please comment and/or get on board.
 
-**Unifying language variables**
+## Unifying language variables
 
 Language variables are one of the many cross-cutting issues in ILIAS. Over time, the language increasingly diffuses apart. Continuous maintenance of the language variables should ensure and *improve the uniformity of the system*. This chapter describes the procedure and outlines the steps to unify the language variables. The priorities are discussed frequently with the language maintainer.
 
-## Tab Navigation
-
-### Title of "Settings" tab and "General" Settings sub tab
+### Tab Navigation: Title of "Settings" tab and "General" Settings sub tab
 
 The "Settings" tab is used in many ILIAS objects and services. The structure is very similar in all contexts of use – but the wording often differs. In order to simplify the handling and the learnability of the settings, wording should be adapted to each other.
 
@@ -91,8 +89,8 @@ Setting duplicates
   - Administration > Repository and Objects > Survey (Settings und Settings Templates)
   - Administration > Repository and Objects > Test (Settings und Settings Templates)
 
-## Naming of editors in ILIAS
-### ILIAS Page Editor, TinyMCE Editor, Content Style Editor
+### Naming of editors in ILIAS
+#### ILIAS Page Editor, TinyMCE Editor, Content Style Editor
 
 There are many different names for editors. In some places only the spelling differs, in others different terms are used for the same editor. 
 
@@ -128,7 +126,7 @@ There are many different names for editors. In some places only the spelling dif
 "Content Style-Editor"
 		- Styleeditor (de)
 
-### Other editor labels
+#### Other editor labels
 
 These should be looked at, too!
 
@@ -169,7 +167,7 @@ Media
         - [get link] (en) / [Link auswählen] (de)
     - No Link (en) / Kein Link (de)
 
-## Further simple adjustments
+### Further simple adjustments
 
 The following issues were collected by Alix Mela. We would like to discuss and improve them as we proceed with our work. Further additions are welcome!
 
@@ -200,7 +198,8 @@ The following issues were collected by Alix Mela. We would like to discuss and i
 - Download vs. Herunterladen
 - (n) vs. (-n) vs. /-n
 - … vs. Space
-## Introduction of further labels
+
+### Introduction of further labels
 We also want to discuss and find German names for the following labels.
 
 **Currently used labels**
